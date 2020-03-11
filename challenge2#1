@@ -1,0 +1,11 @@
+nome = input("Nome: ")
+Letras = len(nome)
+Letras2 = len(nome.replace(" ", ""))
+print(Letras2)
+print("com espaço: ",Letras, "sem espaço: ", Letras2)
+
+NomeMAI = nome.upper()
+print(NomeMAI)
+
+NomeMINU = nome.lower()
+print(NomeMINU)
